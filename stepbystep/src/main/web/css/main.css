@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+  background-color: #f2f2f2;
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+
+  margin-top: 70px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family:"Raleway";
+  font-weight: 300;
+  color: #333;
+}
+
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+  .centered{
+    text-align: center;
+  }
+
+  a {
+    color: #f85c37;
+  }
+
+  a:hover, a:focus{
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+
+  }
+  hr{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+  }
+
+  .navbar{
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .navbar-inverse{
+    background: #2d2d2d;
+    border-color: #2d2d2d;
+  }
+
+  .navbar-inverse .navbar-nav > .active > a{
+    background-color: #ff7878;
+  }
+
+  .navbar-inverse .navbar-brand{
+    color: #999;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+
+  #headerwrap{
+    background: url(../img/magic.png) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+#headerwrap h1{
+  margin-top: 300px;
+  color: white;
+  font-size: 70px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+
+#headerwrap h2{
+  color: white;
+  font-size: 40px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.w{
+  padding-top: 35px;
+}
+
+.w h4{
+  font-size: 25px;
+}
+
+#dg{
+  background: #e0e0e0;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+#dg h4{
+  font-size: 40px;
+}
+
+.tilt{
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+
+}
+.tilt:hover{
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+.wb{
+  padding-top: 35px;
+  margin-bottom: 0;
+}
+
+.wb h4{
+  font-size: 35px;
+}
+
+#lg{
+  background: #ebebeb;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+#lg h4{
+  font-size: 45px;
+}
+
+#r{
+  background: #ff7878;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+#r h4{
+  color: white;
+  font-size: 45px;
+}
+
+#r p{
+  color: white;
+}
+
+#f {
+  background: #2d2d2d;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+#f i{
+  color: #bdbdbd;
+  font-size: 30px;
+  padding: 20px;
+}
+
+#f i:hover{
+  color: #ff7878;
+}
+
+.center-img {
+  display: block;
+  margin: 0 auto;
+}
+
+#toTop {
+width:100px;
+border:2px solid #ccc;
+background:#ff7878;
+text-align:center;
+padding:5px;
+position:fixed;
+bottom:10px; /* отступ кнопки от нижнего края страницы*/
+right:10px;
+cursor:pointer;
+display:none;
+color:Black;
+font-family:"Lato";
+font-size:15px;
+}
+
+
+.teaser {
+	margin-left: 50px; /* отступ контейнера с анонсом слева */
+	margin-right: 50px; /* отступ контейнера с анонсом справа */
+	border-bottom: 1px dotted #c8c8c8; /* разделительная пунктирная линия у контейнера с анонсом размером в 1 пиксель */
+	display:inline-block; /*определяет свойство показа элемента*/
+	margin-bottom: 20px; /* отступ снизу между контейнерами с анонсмо*/
+	font-size: 16px; /* размер шрифта */
+
+}
+.teaser h2.title-node a{
+	font-size: 20px; /*размер заголовка у анонса */
+	color:#b14757; /*цвет заголовка анонса*/
+	text-decoration:underline; /* нижнее подчеркивание у заголовка анонса */
+  font-family:"Lato";
+}
+.teaser h2.title-node a:hover{
+	font-size: 20px; /*размер заголовка у анонса при наведении курсора*/
+	color:#b14757; /*цвет заголовка анонса при наведении курсора*/
+	text-decoration: none;  /* отмена нижнего подчеркивания у заголовка анонса при наведении курсора*/
+
+}
+.teaser img {
+	float:left; /* прижимаем картинку в анонсе к левому краю, тем самым делая обтекание картинки текстом справа */
+	padding-left: 10px; /*отступ слева внутри контейнера*/
+	padding-right: 10px; /* отступ справа от картинки для текста */
+	padding-bottom: 10px; /* отступ снизу от картинки для текста */
+}
+.teaser .more {
+	display:inline-block; /*определяет свойство показа элемента*/
+	float:right; /* прижимаем контейнер с ссылкой читать далее, к правой стороне контейнера анонса*/
+	margin-top: 40px; /* отступ сверху для контейнера с ссылкой чиатать далее*/
+	margin-bottom: 10px; /* подвигаем нижнюю границу контейнера вниз*/
+}
+
+
+#block-for-slider {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#viewport {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    text-align: center;
+}
+
+#slidewrapper {
+    position: relative;
+    width: calc(100% * 4);
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+    -webkit-transition-timing-function: cubic-bezier(.67,.01,.23,1);
+    -o-transition-timing-function: cubic-bezier(.67,.01,.23,1);
+    transition-timing-function: cubic-bezier(.67,.01,.23,1);
+}
+
+#slidewrapper, #slidewrapper ul, #slidewrapper li {
+    margin: 0;
+    padding: 0;
+}
+
+.slide {
+    width: calc(100%/4);
+    list-style: none;
+    display: inline;
+    float: left;
+}
+
+.slide-img {
+    width: 100%;
+}
+
+#prev-btn, #next-btn {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    top: calc(50% - 25px);
+}
+
+#prev-btn:hover, #next-btn:hover {
+    cursor: pointer;
+}
+
+#prev-btn {
+    left: 20px;
+}
+
+#next-btn {
+    right: 20px;
+}
+
+#nav-btns {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.slide-nav-btn {
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+.slide-nav-btn:hover {
+    cursor: pointer;
+}
+.marginBot{
+  margin-bottom: 20px;
+}
+.mainCollapse{
+  position: relative;
+  float: left;
+  width: 100%;
+}
